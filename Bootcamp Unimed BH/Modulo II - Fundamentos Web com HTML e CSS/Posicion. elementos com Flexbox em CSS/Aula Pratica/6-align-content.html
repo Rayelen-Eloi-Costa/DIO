@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Align Content</title>
+    <style>
+        .container {
+            min-height: 300px;
+            max-width: 500px;
+            display: flex;
+            flex-wrap: wrap;
+            border: 2px solid black;
+        }
+        .item {
+            background-color: rgb(143, 47, 122);
+            padding: 0 5px;
+            margin: 5px;
+            flex: 1;
+            text-align: center;
+            color: white;
+            border: 1px solid rosybrown;
+        }
+        .stretch {
+            align-content: stretch;
+        }
+        .center {
+            align-content: center;
+        }
+        .flex-start {
+            align-content: flex-start;
+        }
+        .flex-end {
+            align-content: flex-end;
+        }
+        .space-between {
+            align-content: space-between;
+        }
+        .space-around {
+            align-content: space-around;
+        }
+    </style>
+</head>
+
+<body>
+    <h2> Stretch </h2>
+    <div class="container stretch">
+        <div class="item"> “Os problemas são oportunidades para se mostrar o que sabe.” </div>
+        <div class="item"> “O verdadeiro heroísmo consiste em persistir por mais um momento, quando tudo parece perdido” </div>
+        <div class="item"> “Tenho aprendido ao longo dos anos que, quando a mente está pronta, isso diminui o medo” </div>
+        <div class="item"> “É costume de um tolo, quando erra, queixar-se dos outros. É costume de um sábio queixar-se de si mesmo” </div>
+        <div class="item"> “A chave do negócio é analisar cada cliente antes de servi-lo” </div>
+        <div class="item"> “O maior prêmio que a vida oferece é trabalhar em algo que valha a pena” </div>
+    </div>
+    <h2> Center </h2>
+    <div class="container center">
+        <div class="item"> “Os problemas são oportunidades para se mostrar o que sabe.” </div>
+        <div class="item"> “O verdadeiro heroísmo consiste em persistir por mais um momento, quando tudo parece perdido” </div>
+        <div class="item"> “Tenho aprendido ao longo dos anos que, quando a mente está pronta, isso diminui o medo” </div>
+        <div class="item"> “É costume de um tolo, quando erra, queixar-se dos outros. É costume de um sábio queixar-se de si mesmo” </div>
+        <div class="item"> “A chave do negócio é analisar cada cliente antes de servi-lo” </div>
+        <div class="item"> “O maior prêmio que a vida oferece é trabalhar em algo que valha a pena” </div>
+    </div>
+    <h2> Flex-Start </h2>
+    <div class="container flex-start">
+        <div class="item"> “Os problemas são oportunidades para se mostrar o que sabe.” </div>
+        <div class="item"> “O verdadeiro heroísmo consiste em persistir por mais um momento, quando tudo parece perdido” </div>
+        <div class="item"> “Tenho aprendido ao longo dos anos que, quando a mente está pronta, isso diminui o medo” </div>
+        <div class="item"> “É costume de um tolo, quando erra, queixar-se dos outros. É costume de um sábio queixar-se de si mesmo” </div>
+        <div class="item"> “A chave do negócio é analisar cada cliente antes de servi-lo” </div>
+        <div class="item"> “O maior prêmio que a vida oferece é trabalhar em algo que valha a pena” </div>
+    </div>
+    <h2> Flex-End </h2>
+    <div class="container flex-end">
+        <div class="item"> “Os problemas são oportunidades para se mostrar o que sabe.” </div>
+        <div class="item"> “O verdadeiro heroísmo consiste em persistir por mais um momento, quando tudo parece perdido” </div>
+        <div class="item"> “Tenho aprendido ao longo dos anos que, quando a mente está pronta, isso diminui o medo” </div>
+        <div class="item"> “É costume de um tolo, quando erra, queixar-se dos outros. É costume de um sábio queixar-se de si mesmo” </div>
+        <div class="item"> “A chave do negócio é analisar cada cliente antes de servi-lo” </div>
+        <div class="item"> “O maior prêmio que a vida oferece é trabalhar em algo que valha a pena” </div>
+    </div>
+
+    <h2> Space-Between </h2>
+    <div class="container space-between">
+        <div class="item"> “Os problemas são oportunidades para se mostrar o que sabe.” </div>
+        <div class="item"> “O verdadeiro heroísmo consiste em persistir por mais um momento, quando tudo parece perdido” </div>
+        <div class="item"> “Tenho aprendido ao longo dos anos que, quando a mente está pronta, isso diminui o medo” </div>
+        <div class="item"> “É costume de um tolo, quando erra, queixar-se dos outros. É costume de um sábio queixar-se de si mesmo” </div>
+        <div class="item"> “A chave do negócio é analisar cada cliente antes de servi-lo” </div>
+        <div class="item"> “O maior prêmio que a vida oferece é trabalhar em algo que valha a pena” </div>
+    </div>
+    <h2> Space-Around </h2>
+    <div class="container space-around">
+        <div class="item"> “Os problemas são oportunidades para se mostrar o que sabe.” </div>
+        <div class="item"> “O verdadeiro heroísmo consiste em persistir por mais um momento, quando tudo parece perdido” </div>
+        <div class="item"> “Tenho aprendido ao longo dos anos que, quando a mente está pronta, isso diminui o medo” </div>
+        <div class="item"> “É costume de um tolo, quando erra, queixar-se dos outros. É costume de um sábio queixar-se de si mesmo” </div>
+        <div class="item"> “A chave do negócio é analisar cada cliente antes de servi-lo” </div>
+        <div class="item"> “O maior prêmio que a vida oferece é trabalhar em algo que valha a pena” </div>
+    </div>
+</body>
+</html>

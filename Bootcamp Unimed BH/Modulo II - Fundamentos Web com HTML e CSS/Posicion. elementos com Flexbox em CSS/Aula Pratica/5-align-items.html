@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> fundamentos - Align Items</title>
+    <style>
+        .container {
+            max-width: 350px;
+            border: 1px solid black;
+            display: flex;
+        }
+        .item {
+            background-color: rgb(47, 143, 111);
+            margin:  5px;
+            color: white;
+            text-align: center;
+            flex: 1;
+        }
+        .flex{
+            flex: 1;
+        }
+        .center {
+            align-items: center;
+        }
+        .stretch {
+            align-items: stretch;
+        }
+        .flex-start {
+            align-items: flex-start;
+        }
+        .flex-end {
+            align-items: flex-end;
+        }
+        .baseline {
+            align-items: baseline;
+        }
+        .column {
+            flex-direction: column;
+        }
+        .central {
+            height: 400px;
+            justify-content: center;
+            align-items: center;
+        }
+        .central .item {
+            flex: 0;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1> Row </h1> 
+    <h2> Center </h2>
+     <section class="container center">
+        <div class="item"> Item 1 </div>
+        <div class="item"> Item 2 - A persistência é o caminho do êxito.</div>
+        <div class="item"> Item 3 - Nossa maior fraqueza está em desistir. O caminho mais certo de vencer é tentar mais uma vez.</div>
+     </section>
+
+     <h2> Stretch </h2>
+     <section class="container stretch">
+        <div class="item"> Item 1 </div>
+        <div class="item"> Item 2 - A persistência é o caminho do êxito.</div>
+        <div class="item"> Item 3 - Nossa maior fraqueza está em desistir. O caminho mais certo de vencer é tentar mais uma vez.</div>
+     </section>
+
+     <h2> Flex-Start</h2>
+     <section class="container flex-start">
+        <div class="item"> Item 1 </div>
+        <div class="item"> Item 2 - A persistência é o caminho do êxito.</div>
+        <div class="item"> Item 3 - Nossa maior fraqueza está em desistir. O caminho mais certo de vencer é tentar mais uma vez.</div>
+     </section>
+
+     <h2> Flex-End </h2>
+     <section class="container flex-end">
+        <div class="item"> Item 1 </div>
+        <div class="item"> Item 2 - A persistência é o caminho do êxito.</div>
+        <div class="item"> Item 3 - Nossa maior fraqueza está em desistir. O caminho mais certo de vencer é tentar mais uma vez.</div>
+     </section>
+
+     <h2> Baseline </h2>
+     <section class="container baseline">
+        <div class="item"> <br> Item 1 <br> </div>
+        <div class="item"> Item 2 - A persistência é o caminho do êxito.</div>
+        <div class="item"> Item 3 - Nossa maior fraqueza está em desistir. O caminho mais certo de vencer é tentar mais uma vez.</div>
+     </section>
+
+     <h1> Column </h1>
+     <h2> Center </h2>
+     <section class="container center column">
+        <div class="item"> Item 1 </div>
+        <div class="item"> Item 2 - A persistência é o caminho do êxito.</div>
+        <div class="item"> Item 3 - Nossa maior fraqueza está em desistir. O caminho mais certo de vencer é tentar mais uma vez.</div>
+     </section>
+
+     <h2> Stretch </h2>
+     <section class="container stretch column">
+        <div class="item"> Item 1 </div>
+        <div class="item"> Item 2 - A persistência é o caminho do êxito.</div>
+        <div class="item"> Item 3 - Nossa maior fraqueza está em desistir. O caminho mais certo de vencer é tentar mais uma vez.</div>
+     </section>
+
+     <h2> Flex-Start</h2>
+     <section class="container flex-start column">
+        <div class="item"> Item 1 </div>
+        <div class="item"> Item 2 - A persistência é o caminho do êxito.</div>
+        <div class="item"> Item 3 - Nossa maior fraqueza está em desistir. O caminho mais certo de vencer é tentar mais uma vez.</div>
+     </section>
+
+     <h2> Flex-End </h2>
+     <section class="container flex-end column">
+        <div class="item"> Item 1 </div>
+        <div class="item"> Item 2 - A persistência é o caminho do êxito.</div>
+        <div class="item"> Item 3 - Nossa maior fraqueza está em desistir. O caminho mais certo de vencer é tentar mais uma vez.</div>
+     </section>
+
+     <h2> Baseline </h2>
+     <section class="container baseline column">
+        <div class="item"> <br> Item 1 <br> </div>
+        <div class="item"> Item 2 - A persistência é o caminho do êxito.</div>
+        <div class="item"> Item 3 - Nossa maior fraqueza está em desistir. O caminho mais certo de vencer é tentar mais uma vez.</div>
+     </section>
+
+     <h1>Alinhamento Central à Tela</h1> 
+     <section class="container center central">
+        <div class="item"> Lute com determinação, abrace a vida com paixão, perca com classe e vença com ousadia, porque o mundo pertence a quem se atreve e a vida é muito para ser insignificante. </div>
+     </section>
+</body>
+</html>
