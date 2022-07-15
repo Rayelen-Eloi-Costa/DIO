@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Align Self</title>
+    <style>
+        .flex-container {
+            max-width: 350px;
+            border: 2px solid black;
+            margin-bottom: 10px;
+            display: flex;
+        }
+        .direction {
+            flex-direction: column;
+        }
+        .align-container {
+            align-items: center;
+        }
+        .item {
+            background-color: rgb(201, 50, 50);
+            color: white;
+            font-size: 24px;
+            text-align: center;
+            margin: 5px;
+        }
+        .flex-start {
+            align-self: flex-start;
+        }
+        .flex-end {
+            align-self: flex-end;
+        }
+        .center {
+            align-self: center;
+        }
+        .stretch {
+            align-self: stretch;
+        }
+        .baseline {
+            align-self: baseline;
+        }
+        .auto {
+            align-self: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1> Row </h1>
+    <h2> Flex-Start </h2>
+    <section class="flex-container align-container">
+        <div class="item flex-start"> AAA </div>
+        <div class="item flex-start"> 123456 </div>
+        <div class="item flex-start"> A persistência é o caminho do êxito. </div>
+        <div class="item flex-start"> Item 4</div>
+    </section>
+    <h2> Flex-End </h2>
+    <section class="flex-container">
+        <div class="item flex-end"> AAA </div>
+        <div class="item flex-end"> 123456 </div>
+        <div class="item flex-end"> A persistência é o caminho do êxito. </div>
+        <div class="item flex-end"> Item 4</div>
+    </section>
+    <h2> Center </h2>
+    <section class="flex-container">
+        <div class="item center"> AAA </div>
+        <div class="item center"> 123456 </div>
+        <div class="item center"> A persistência é o caminho do êxito. </div>
+        <div class="item center"> Item 4</div>
+    </section>
+    <h2> Stretch </h2>
+    <section class="flex-container">
+        <div class="item stretch"> AAA </div>
+        <div class="item stretch"> 123456 </div>
+        <div class="item stretch"> A persistência é o caminho do êxito. </div>
+        <div class="item stretch"> Item 4</div>
+    </section>
+    <h2> Baseline </h2>
+    <section class="flex-container">
+        <div class="item baseline"> AAA </div>
+        <div class="item baseline"> 123456 </div>
+        <div class="item baseline"> A persistência é o caminho do êxito. </div>
+        <div class="item baseline"> Item 4</div>
+    </section>
+    <h2> Auto </h2>
+    <section class="flex-container">
+        <div class="item auto"> AAA </div>
+        <div class="item auto"> 123456 </div>
+        <div class="item auto"> A persistência é o caminho do êxito. </div>
+        <div class="item auto"> Item 4</div>
+    </section>
+
+    <h1> Column </h1>
+    <h2> Flex-Start </h2>
+    <section class="flex-container direction">
+        <div class="item flex-start"> AAA </div>
+        <div class="item flex-start"> 123456 </div>
+        <div class="item flex-start"> A persistência é o caminho do êxito. </div>
+        <div class="item flex-start"> Item 4</div>
+    </section>
+    <h2> Flex-End </h2>
+    <section class="flex-container direction">
+        <div class="item flex-end"> AAA </div>
+        <div class="item flex-end"> 123456 </div>
+        <div class="item flex-end"> A persistência é o caminho do êxito. </div>
+        <div class="item flex-end"> Item 4</div>
+    </section>
+    <h2> Center </h2>
+    <section class="flex-container direction">
+        <div class="item center"> AAA </div>
+        <div class="item center"> 123456 </div>
+        <div class="item center"> A persistência é o caminho do êxito. </div>
+        <div class="item center"> Item 4</div>
+    </section>
+    <h2> Stretch </h2>
+    <section class="flex-container direction">
+        <div class="item stretch"> AAA </div>
+        <div class="item stretch"> 123456 </div>
+        <div class="item stretch"> A persistência é o caminho do êxito. </div>
+        <div class="item stretch"> Item 4</div>
+    </section>
+    <h2> Baseline </h2>
+    <section class="flex-container direction">
+        <div class="item baseline"> AAA </div>
+        <div class="item baseline"> 123456 </div>
+        <div class="item baseline"> A persistência é o caminho do êxito. </div>
+        <div class="item baseline"> Item 4</div>
+    </section>
+    <h2> Auto </h2>
+    <section class="flex-container direction">
+        <div class="item auto"> AAA </div>
+        <div class="item auto"> 123456 </div>
+        <div class="item auto"> A persistência é o caminho do êxito. </div>
+        <div class="item auto"> Item 4</div>
+    </section>
+</body>
+</html>
