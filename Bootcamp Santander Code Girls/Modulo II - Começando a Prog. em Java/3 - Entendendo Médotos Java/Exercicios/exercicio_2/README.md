@@ -10,5 +10,5 @@ Criar uma aplicação que calcula a área dos 3 quadriláteros notáveis: quandr
 Observações:
 > - Use sobrecarga.
 
-[GitHub do Exercicio do Professor](https://github.com/tlcdio/MAula02)
+### [GitHub do Exercicio do Professor](https://github.com/tlcdio/MAula02)
 
