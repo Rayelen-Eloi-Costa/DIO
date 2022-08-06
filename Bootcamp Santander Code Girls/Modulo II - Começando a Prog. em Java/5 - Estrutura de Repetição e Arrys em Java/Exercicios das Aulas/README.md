@@ -1,5 +1,5 @@
 # Curso Estruturas de Repetição e Arrays em Java
-### Curso Ministrado pela [Camila Calvacante](https://github.com/cami-la/loops-e-arrays#readme).
+### Curso Ministrado pela [Camila Calvacante](https://github.com/cami-la/loops-e-arrays).
 Resolução dos exercícios propostos no curso de Estruturas de Repetição e Arrays em Java, da plataforma de cursos online [DIGITAL INNOVATION ONE](https://dio.me/sign-up?ref=5ELSE53ECK) e disponibilizado de forma gratuita para a comunidade dos desenvolvedores Java.
 
 ## ➿ Loops de Exercícios

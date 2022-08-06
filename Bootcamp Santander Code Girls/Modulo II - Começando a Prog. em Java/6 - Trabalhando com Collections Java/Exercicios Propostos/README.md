@@ -1,5 +1,5 @@
 # Curso Trabalhando com Collections Java
-### Curso Ministrado pela [Camila Calvacante](https://github.com/cami-la/loops-e-arrays#readme).
+### Curso Ministrado pela [Camila Calvacante](https://github.com/cami-la).
 
 Resolução dos exercícios propostos no curso Trabalhando com Collections Java, da plataforma de cursos online **[DIGITAL INNOVATION ONE](https://dio.me/sign-up?ref=5ELSE53ECK)** e disponibilizado de forma gratuita para a comunidade de desenvolvedores Java.
 
