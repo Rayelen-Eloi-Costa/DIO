@@ -1,5 +1,5 @@
 
-# ** Desafio de Projeto - Abstraindo um Bootcamp Usando Orientação a Objetos em Java **
+# Desafio de Projeto - Abstraindo um Bootcamp Usando Orientação a Objetos em Java
 ### Curso Ministrado pela [Camila Calvacante](https://github.com/cami-la).
 
 Resolução do Desafio de Projeto do Bootcamp Santander Code Girls, da plataforma de cursos online **[DIGITAL INNOVATION ONE](https://dio.me/sign-up?ref=5ELSE53ECK)** e disponibilizado de forma gratuita para a comunidade de desenvolvedores Java.
