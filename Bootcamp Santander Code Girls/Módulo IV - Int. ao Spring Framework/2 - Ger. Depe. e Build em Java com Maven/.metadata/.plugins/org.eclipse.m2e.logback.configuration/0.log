@@ -1,0 +1,6 @@
+2022-08-08 09:55:25,028 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-08-08 09:55:25,691 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2022-08-08 09:55:33,174 [Worker-1: Deferred Early Start] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (org.apache.hc.core5.http.StreamClosedException) caught when processing request to {tls}->http://172.16.1.5:3128->https://www.eclipse.org:443
+2022-08-09 14:09:22,460 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-08-09 14:09:26,080 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2022-08-09 14:09:32,664 [Worker-0: Deferred Early Start] INFO  o.a.h.c.h.i.c.HttpRequestRetryExec - Recoverable I/O exception (org.apache.hc.core5.http.StreamClosedException) caught when processing request to {tls}->http://172.16.1.5:3128->https://www.eclipse.org:443
